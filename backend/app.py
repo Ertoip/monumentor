@@ -19,7 +19,7 @@ emb_fn = embedding_functions.OpenAIEmbeddingFunction(
         model_name="text-embedding-ada-002"
     )
 
-openai.api_key = "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"
+openai.api_key = "sk-"
 
 app = FastAPI()
 
